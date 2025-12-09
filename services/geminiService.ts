@@ -8,7 +8,7 @@ interface GenerateSpeechParams {
 }
 
 export const generateSpeech = async (params: GenerateSpeechParams, audioContext: AudioContext): Promise<{ audioBuffer: AudioBuffer; base64Data: string }> => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
     throw new Error("API Key is missing. Please set process.env.API_KEY.");
   }
