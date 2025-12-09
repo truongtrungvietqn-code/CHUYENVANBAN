@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Vox - AI Text to Speech",
+  "description": "A professional Text-to-Speech application powered by Google Gemini. Convert text to lifelike audio with multiple voice personalities and style controls.",
+  "requestFramePermissions": []
+}
